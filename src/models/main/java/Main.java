@@ -7,18 +7,19 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         int hrs=0, mins=0, segs=0;
-        Alarme alarme = Alarme.criarAlarme();
+
+/*        Alarme alarme = new Alarme();
 
         LocalTime agora = alarme.getHoraAtual();
 
 
-//        hrs = input.nextInt();
-//        mins = input.nextInt();
-//        segs = input.nextInt();
-//        Duration duration = alarme.addTempo(hrs, mins, segs);
-//
-//        System.out.printf(agora.toString() + " Depois " + agora.plus(duration).toString());
+          hrs = input.nextInt();
+          mins = input.nextInt();
+          segs = input.nextInt();
+          Duration duration = alarme.addTempo(hrs, mins, segs);
 
-        System.out.printf(alarme.getDataAtual().toString());
+          System.out.printf(agora.toString() + " Depois " + agora.plus(duration).toString());
+
+        System.out.printf(alarme.getDataAtual().toString());*/
     }
 }
